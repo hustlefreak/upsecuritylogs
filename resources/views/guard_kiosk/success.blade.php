@@ -23,7 +23,7 @@
         <h2 class="text-3xl font-extrabold text-gray-900 mb-2">Report Logged.</h2>
         <p class="text-lg text-gray-600 mb-8">The Daily Activity Report has been securely stored in the system database.</p>
         
-        <a href="{{ route('dashboard') }}" class="inline-flex justify-center py-3 px-6 border border-gray-300 rounded-lg shadow-sm text-base font-bold text-gray-700 bg-white hover:bg-gray-50 transition-colors mr-2">
+        <a href="{{ route('hub') }}" class="inline-flex justify-center py-3 px-6 border border-gray-300 rounded-lg shadow-sm text-base font-bold text-gray-700 bg-white hover:bg-gray-50 transition-colors mr-2">
             Back to Dashboard
         </a>
         <a href="{{ route('guard_kiosk.index') }}" class="inline-flex justify-center py-3 px-6 border border-transparent rounded-lg shadow-sm text-base font-bold text-white bg-gray-800 hover:bg-gray-900 transition-colors">
